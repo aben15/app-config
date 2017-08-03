@@ -1,1 +1,15 @@
-{ "git": { "uri": "https://github.com/aben15/app-config.git" } }
+{
+  "git": {
+    "uri": ""https://github.com/aben15/app-config.git"",
+    "proxy": {
+      "http": {
+        "host": "webproxy.merck.com",
+        "port": "8080"
+      },
+      "https": {
+        "host": "webproxy.merck.com",
+        "port": "8080"
+      }
+    }
+  }
+}
